@@ -57,3 +57,9 @@ margin: 0;
 float: left;
 margin: 0 10px;
 }
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
