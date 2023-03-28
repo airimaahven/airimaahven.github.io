@@ -3,6 +3,11 @@ width: 960px;
 margin: 10px auto;
 }
 
+.container {
+  margin: auto !important;
+  width: 970px !important;
+}
+
 main {
 display: flex;
 }
@@ -59,7 +64,7 @@ margin: 0 10px;
 }
 
 @media screen and (max-width: 1000px) {
-  .main , .konten, .sidebar, .navigasi, .logo {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  .container {
+    width: 100% !important;; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
